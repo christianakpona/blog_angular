@@ -1,0 +1,3 @@
+<ul class="list-group" *ngFor="let unpost of posts">
+  <app-post-list-item [title]="unpost.title" [created_at]="unpost.created_at" [loveIts]="unpost.loveIts" [content]="unpost.content"></app-post-list-item>
+</ul>
